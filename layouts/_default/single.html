@@ -4,12 +4,10 @@
 		{{ if .Title }}
 		<h1 class="p-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		{{ end }}
-		<a href="{{ .Permalink }}" class="u-url">
 			<time class="dt-published">
 			{{ .Date.Format "2 January 2006" }}
 			</time>
-		</a>
-		<a href="{{ .Permalink }}">#</a>
+		<a href="{{ .Permalink }}" class="permalink">#</a>
 	</header>
 	{{ .Content }}
 </article>
