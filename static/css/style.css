@@ -59,6 +59,7 @@ nav menu li {
 footer {
     margin-top: 32px;
 	text-align: center;
+    clear: both;
 }
 
 menu {
@@ -73,7 +74,16 @@ menu li {
 #pagination {
 	margin-top: 32px;
 	margin-bottom: 32px;
-	clear: both;
+    text-align: center;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+#pagination a {
+    margin: 0 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
 }
 
 .rect-section {
@@ -216,5 +226,6 @@ iframe {
 	max-width: 100%;
 	height: auto;
 }
+
 
 
