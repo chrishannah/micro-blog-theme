@@ -38,6 +38,11 @@ main {
 nav menu a {
     color: var(--header-accent);
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    text-decoration: none;
+}
+
+nav menu li {
+    font-size: 1.2em;
 }
 
 #container {
@@ -52,8 +57,8 @@ nav menu a {
 }
 
 footer {
+    margin-top: 32px;
 	text-align: center;
-    clear: both;
 }
 
 menu {
@@ -63,6 +68,12 @@ menu {
 
 menu li {
 	display: inline;
+}
+
+#pagination {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	clear: both;
 }
 
 .rect-section {
@@ -100,6 +111,10 @@ h4,
 h5,
 h6 {
 	font-weight: 400;
+}
+
+article {
+	margin: 32px 0 64px 0;
 }
 
 article header {
@@ -190,3 +205,16 @@ article {
 	font-weight: 600;
 	font-size: 1em;
 }
+
+hr {
+    border-color: var(--accent);
+}
+
+img,
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+
