@@ -1,4 +1,7 @@
 <footer>
 	{{ .Site.Params.description | safeHTML }}<br />
-	<img src="http://i.picasion.com/gl/92/fOXP.gif" />
+
+	{{ partial "custom_footer.html" . }}
+
+	<p><img src="http://i.picasion.com/gl/92/fOXP.gif" /></p>
 </footer>
