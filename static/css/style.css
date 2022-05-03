@@ -4,6 +4,7 @@
 	--text: black;
     --text-meta: #999;
 	--text-alt: #555;
+    --text-title: rgb(47, 10, 22);
 	--accent: rgb(210, 45, 100);
 	--sidebar-accent: rgb(154 17 62);
 	--header-accent: rgb(210, 45, 100);
@@ -14,6 +15,13 @@
 }
 
 html {
+    background-image: linear-gradient(
+		to bottom,
+        var(--accent),
+        var(--background)
+	);
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
 	background-color: var(--background);
 	color: var(--text);
 	font-family: sans-serif;
@@ -163,7 +171,7 @@ body > header {
 	font-size: 2.8em;
 	font-weight: 800;
 	padding-bottom: 0px;
-    color: var(--text);
+    color: var(--text-title);
 }
 
 menu li:after {
@@ -274,4 +282,5 @@ pre code {
 		margin-right: 16px;
 	}
 }
+
 
