@@ -271,6 +271,26 @@ pre code {
 
 @media only screen and (max-width: 1000px) {
 	.sidebar {
+		width: 180px;
+	}
+
+	main {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.sidebar {
+		width: 180px;
+	}
+
+	main {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.sidebar {
 		float: none;
 		width: auto;
 	}
@@ -282,5 +302,3 @@ pre code {
 		margin-right: 16px;
 	}
 }
-
-
