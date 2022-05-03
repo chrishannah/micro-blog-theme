@@ -41,6 +41,7 @@ nav menu a {
 	color: var(--header-accent);
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 	text-decoration: none;
+    text-transform: lowercase;
 }
 
 nav menu li {
