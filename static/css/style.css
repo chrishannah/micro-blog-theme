@@ -1,15 +1,15 @@
 :root {
-	--background: black;
-	--background-alt: #282828;
-	--text: white;
-	--text-alt: #ddd;
-	--accent: #05f2a5;
-	--sidebar-accent: yellow;
-    --header-accent: rgb(210, 138, 45);
+	--background: white;
+	--background-alt: #ddd;
+	--text: black;
+	--text-alt: #999;
+	--accent: rgb(210, 45, 100);;
+	--sidebar-accent: rgb(154 17 62);
+    --header-accent: rgb(210, 45, 100);;
 	--meta-accent: rgb(210, 45, 100);
-    --code: #09f;
-    --code-bg: #1d1f20;
-    --blockquote: #ff009f;
+    --code: rgb(154 17 62);
+    --code-bg: rgb(248 222 230);
+    --blockquote: rgb(210, 45, 100);;
 }
 
 html {
@@ -25,16 +25,16 @@ html {
 }
 
 .sidebar {
-	width: 200px;
+	max-width: 300px;
     float: left;
 }
 
 .sidebar a {
-    color: yellow;
+    color: var(--sidebar-accent);
 }
 
 main {
-    max-width: 600px;
+    max-width: 700px;
     float: right;
 }
 
@@ -49,7 +49,7 @@ nav menu li {
 }
 
 #container {
-    max-width: 860px;
+    max-width: 1060px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -91,9 +91,7 @@ menu li {
 
 .rect-section {
 	border-width: 2px;
-    border-style: dashed none;
-    border-color: var(--sidebar-accent);
-    background-color: var(--background-alt);
+    background-image: linear-gradient(to right, var(--background-alt), var(--background));
     color: var(--sidebar-accent);
     padding: 2px 8px;
     font-weight: 600;
