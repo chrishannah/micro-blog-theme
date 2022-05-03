@@ -2,7 +2,8 @@
 	--background: white;
 	--background-alt: #f2f2f2;
 	--text: black;
-	--text-alt: #999;
+    --text-meta: #999;
+	--text-alt: #555;
 	--accent: rgb(210, 45, 100);
 	--sidebar-accent: rgb(154 17 62);
 	--header-accent: rgb(210, 45, 100);
@@ -127,6 +128,10 @@ h6 {
 	font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-alt);
+}
+
 article {
 	margin: 32px 0 64px 0;
 }
@@ -136,7 +141,7 @@ article header {
 }
 
 article header h1 a {
-	color: inherit;
+    color: inherit;
 	font-size: 1.2em;
 	text-decoration: none;
 }
@@ -146,7 +151,7 @@ article header h1 {
 }
 
 article header time {
-	color: var(--text-alt);
+	color: var(--text-meta);
 	font-weight: 600;
 }
 
@@ -158,6 +163,7 @@ body > header {
 	font-size: 2.8em;
 	font-weight: 800;
 	padding-bottom: 0px;
+    color: var(--text);
 }
 
 menu li:after {
@@ -189,7 +195,7 @@ article {
 }
 
 .microblog_time a {
-	color: var(--text-alt);
+	color: var(--text-meta);
 }
 
 .bookshelf_book {
@@ -211,7 +217,7 @@ article {
 }
 
 .bookshelf_author {
-	color: var(--text-alt);
+	color: var(--text-meta);
 	font-weight: 500;
 	font-size: 1em;
 }
