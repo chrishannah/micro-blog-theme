@@ -1,6 +1,6 @@
 :root {
 	--background: white;
-	--background-alt: #ddd;
+	--background-alt: #f2f2f2;
 	--text: black;
 	--text-alt: #999;
 	--accent: rgb(210, 45, 100);
@@ -267,3 +267,4 @@ pre code {
 		margin-right: 16px;
 	}
 }
+
