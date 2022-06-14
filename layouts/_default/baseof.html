@@ -5,11 +5,12 @@
 		<div id="container">
 			{{ partial "header.html" . }} 
 			{{ partial "navigation.html" . }} 
-			{{ partial "sidebar.html" . }}
 			
 			<main>
 				{{ block "main" . }}{{ end }}
 			</main>
+
+			{{ partial "sidebar.html" . }}
 
 			{{ partial "footer.html" . }}
 			
